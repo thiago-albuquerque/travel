@@ -8,7 +8,7 @@ export default function Header(){
     return(
         <section className="header">
             <div className='hTexto'>
-                <h1>Buscando um experiência diferente?</h1>
+                <h1>Buscando uma experiência diferente?</h1>
                 <p>Aqui no Travel você encontra! Toda qualidade e excelência dos melhores serviços premium.</p>
             </div>
 
