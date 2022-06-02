@@ -1,0 +1,88 @@
+.header{
+    background-image: url('../../Assets/bgHeader.jpg');
+    background-size: cover;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.hTexto{
+    width: 100%;
+    max-width: 1024px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hTexto>h1{
+    color: #fff;
+    font-size: min( 40px, 8vw);
+    font-family: 'Prata', serif;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.hTexto>p{
+    color: #fff;
+    font-size: min( 22px, 5vw);
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.hPesquisa{
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    border: 2px solid rgb(78, 78, 78);
+    border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: -25px;
+    gap: 10px;
+
+}
+.hPItem{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.hIcon{
+    color: #7BB23E;
+    font-size: 22px;
+    margin-right: 2px;
+}
+.hPInput{
+    color: rgb(121, 121, 121);
+    font-size: min( 16px, 4vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    caret-color: #7BB23E;
+    border: none;
+    outline: none;
+}
+.hPTexto{
+    color: rgb(121, 121, 121);
+    font-size: min( 16px, 4vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hBtn{
+    font-size: min( 14px, 4vw );
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(310deg, #7BB23E  0%, #587e2e 100%);
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}

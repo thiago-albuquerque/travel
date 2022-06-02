@@ -1,0 +1,66 @@
+.hotel{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.sobre{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.sobre>img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.hotelTitle{
+    font-size: min( 30px, 8vw);
+    color: rgb(100, 100, 100);
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #7BB23E;
+    padding: 0 10px;
+}
+.hotelDescricao{
+    color: #777;
+    font-size: min( 18px, 4vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 0 10px;    
+}
+.hotelInfo{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://pro2-bar-s3-cdn-cf1.myportfolio.com/b5cba12d64c7da01d7c3d1435f6ea9b0/c51627d8-135e-4d73-9e9f-7925c57c1ba7_rw_1200.jpg?h=aca4d21326a91b52d6d062c1a3847919');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.hotelInfo>p{
+    color: #fff;
+    font-size: min( 18px, 4vw);
+    width: 70%;
+    text-align: justify;
+    font-family: 'Source Sans Pro', serif;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 4%;
+}

@@ -1,0 +1,217 @@
+.detalhesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.slideFechar{
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.arrow{
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+ .sliderWrapper{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .sliderImg{
+     width: 80%;
+     height: 90vh;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+
+.dtWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.dtBtn{
+    color: #fff;
+    font-size: min( 14px, 4vw );
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-image: linear-gradient(310deg, #7BB23E  0%, #587e2e 100%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+}
+.dtTitle{
+    font-size: min( 30px, 8vw );
+    color: #7BB23E;
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 10px;
+}
+.dtDistance{
+    font-size: min( 18px, 4.5vw );
+    color: #7BB23E;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.dtChamadaReserva{
+    color: #777;
+    font-size: min( 20px, 5vw );
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 0 10px 10px 10px;
+}
+.dtComodidades{
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    gap: 10px;
+}
+.dtComodidades>span{
+    color: #7BB23E;
+    font-size: min( 20px, 5vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.comodidadesContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    padding: 5px 0;
+    gap: 20px;
+}
+.comodidadesItens{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dtIcon{
+    color: #7BB23E;
+    font-size: 18px;
+}
+.comodidadesItens>h6{
+    color: #777;
+    font-size: min( 16px, 3.5vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.dtImagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.dtImgWrapper{
+    width: 33%;
+}
+.dtImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.dtInfo{
+    flex: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px solid #7BB23E;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    gap: 20px;
+}
+.dtInfo>h1{
+    color: #7BB23E;
+    font-size: min( 18px, 4.5vw );
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.dtInfo>span{
+    color: #777;
+    font-size: min( 16px, 4vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.dtInfo>h2{
+    color: #7BB23E;
+    font-size: min( 24px, 6vw );
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.dtInfo>button{
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-size: min( 16px, 4vw );
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-image: linear-gradient(310deg, #747474 0%, #000000 100%);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sliderImg{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .sliderImg{
+        width: 100%;
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .sliderImg{
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .sliderImg{
+        height: 40vh;
+    }
+}

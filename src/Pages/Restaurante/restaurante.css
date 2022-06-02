@@ -1,0 +1,47 @@
+.restaurante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.rContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.rItens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.rDescricao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.rDescricao>h6{
+    color: rgb(100, 100, 100);
+    font-size: min( 30px, 6.5vw );
+    font-family: 'Prata', sans-serif;
+    border-bottom: 2px solid #7BB23E;
+    margin-bottom: 30px;
+}
+.rDescricao>h3{
+    font-size: min( 22px, 4.5vw );
+    color: rgb(121, 121, 121);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
+.rItens>img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 120px 10px 120px 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}

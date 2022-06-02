@@ -1,0 +1,32 @@
+.lQ{
+    width: 95%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.lQItem{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+.lQImg{
+    width: 100%;
+    height: min( 150px, 30vw );
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.lQTitles h1{
+    color: rgb(121, 121, 121);
+    font-size: min( 22px, 3.5vw);
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.lQTitles h2{
+    color: rgb(153, 153, 153);
+    font-size: min( 18px, 3vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}

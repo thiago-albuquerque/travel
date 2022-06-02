@@ -1,0 +1,68 @@
+.d{
+    width: 95%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.dItem{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+.dImg{
+    width: 100%;
+    height: min( 250px, 30vw );
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.dNome{
+    font-size: min( 22px, 3.5vw);
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+    margin-top: 8px;
+}
+.dPreco{
+    color: #7BB23E;
+    font-size: min( 18px, 3vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.votosContainer{
+    display: flex;
+    flex-direction: column;
+}
+.estrelaContainer{
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 0;
+}
+.estrela{
+    color: rgb(224, 221, 0);
+    font-size: min( 20px, 5vw);
+    margin-right: 8px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.5));
+}
+.estrelaContainer>h5{
+    color: #fff;
+    font-size: min( 14px, 3.5vw);
+    font-weight: bold;
+    background-image: linear-gradient(310deg, #7BB23E  0%, #587e2e 100%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    padding: 3px 5px;
+}
+.votosContainer>h6{
+    color: rgb(153, 153, 153);
+    font-size: min( 18px, 3.5vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+

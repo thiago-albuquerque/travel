@@ -1,0 +1,28 @@
+.error{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.eContainer{
+    width: 90%;
+    height: 70%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7BB23E;
+    border-radius: 10px;
+}
+.eContainer>h1{
+    color: rgb(78, 78, 78);
+    font-size: min( 100px, 25vw );
+    padding: 0 15px;
+    border-right: 2px solid #7BB23E;
+}
+.eContainer>h5{
+    color: #777;
+    font-size: min( 24px, 5vw );
+    padding: 0 15px;
+}

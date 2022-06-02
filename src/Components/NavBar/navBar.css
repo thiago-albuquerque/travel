@@ -1,0 +1,87 @@
+.navBar{
+    background-image: linear-gradient(310deg, #a7d474 0%, #7BB23E  100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.navContainer{
+    width: 95%;
+    max-width: 1024px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.logo{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Great Vibes', 'Prata', cursive;
+    text-decoration: none;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+}
+.navContainer img{
+    width: 70px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.3));
+}
+.navButton{
+    color: rgb(255, 255, 255);
+    font-size: min( 14px, 4vw );
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-image: linear-gradient(310deg, #747474 0%, #000000 100%);
+    text-decoration: none;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.navOptions{
+    width: 100%;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    border-radius: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 8px 0;
+}
+.optionIcon{
+    font-size: 20px;
+    color: #7BB23E;
+}
+.option>a{
+    color: #7BB23E;
+    font-size: min( 16px, 4vw );
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}

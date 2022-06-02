@@ -1,0 +1,56 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.fListaCopy{
+    width: 100%;
+    font-size: min( 16px, 3.5vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.socialContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialContainer a{
+    color: #587e2e;
+    font-size: min( 28px, 7vw);
+    display: flex;
+    padding: 5px;
+    margin: 0 20px;
+    transition: all, 0.4s;
+}
+.socialContainer a:hover{
+    color: #7BB23E;
+    transform: scale(1.5);
+}
+.scrollTop{
+    background-color: #7BB23E;
+    background-image: linear-gradient(310deg, #747474 0%, #000000 100%);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    padding: 2px 3px;
+    transition: all, 0.4s;
+}
+.scrollTop:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.scrollTopIcon{
+    color: #fff;
+    font-size: min( 24px, 6vw);
+    padding: 2px;
+}

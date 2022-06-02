@@ -1,0 +1,43 @@
+.suites{
+    width: 95%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.suites>a{
+    width: 100%;
+}
+.suitesItem{
+    width: 100%;
+    height: min( 250px, 40vw );
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.suitesImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.suitesTitles{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+}
+.suitesTitles>h1{
+    font-size: min( 22px, 3.5vw);
+    font-family: 'Prata', sans-serif;
+    letter-spacing: 1px;
+}
+.suitesTitles>h2{
+    font-size: min( 18px, 3vw);
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+}
